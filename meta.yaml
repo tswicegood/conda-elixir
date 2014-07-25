@@ -15,11 +15,11 @@ requirements:
   build:
     - readline
     - openssl
-    - erlang
+    - erlang 17.1
   run:
     - readline
     - openssl
-    - erlang
+    - erlang 17.1
 
 about:
   home: http://elixir-lang.org/
