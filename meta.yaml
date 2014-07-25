@@ -1,0 +1,26 @@
+package:
+  name: elixir
+  version: 0.14.3
+
+source:
+  fn: Precompiled.zip
+  md5: 138eb2e2ef9d4b60860e2b01007477f8
+  url: https://github.com/elixir-lang/elixir/releases/download/v0.14.3/Precompiled.zip
+
+test:
+  commands:
+    - iex -v
+
+requirements:
+  build:
+    - readline
+    - openssl
+    - erlang
+  run:
+    - readline
+    - openssl
+    - erlang
+
+about:
+  home: http://elixir-lang.org/
+  license: Apache https://github.com/elixir-lang/elixir/blob/master/LICENSE
